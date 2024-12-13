@@ -33,6 +33,7 @@ const commonSidebarConfig: VitePressSidebarOptions = {
   // frontmatterOrderDefaultValue: 9, // For 'CHANGELOG.md'
   // sortMenusByFrontmatterOrder: true,
   sortMenusOrderNumericallyFromLink: true,
+  excludePattern: ["release_note/", "support_articles/", "xarm_python_sdk/"],
 };
 
 const vitePressSidebarConfig = [
