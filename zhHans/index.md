@@ -7,36 +7,36 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /xarm_python_sdk/continuous_inear_motion
+      link: user_manual/ufactoryStudio/1.preface.html
     - theme: alt
       text: Github
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/xArm-Developer/ufactory_usermanual
 
 
 features:
   - title: 用户手册
     icon: 
-      src: support_article.svg
+      src: /assets/support_article.svg
       width: 400
       height: 400
       alt: 用户手册
     link: user_manual/ufactoryStudio/1.preface.html
     details: UFACTORY Studio user manual
-  - title: Python SDK
-    icon: 
-      src: /assets/python.svg
-      width: 400
-      height: 400
-      alt: Python SDK
-    link: xarm_python_sdk/installation.html
-    details: Python接口开发
-  - title: Support Article
-    icon: 
-      src: /assets/support_article.svg
-      width: 400
-      height: 400
-      alt: Support Article
-    link: support_articles/hardware/How_to_reset_the_zero_position_of_xArm_Gripper.html
-    details: 技术支持文档.
+  # - title: Python SDK
+  #   icon: 
+  #     src: /assets/python.svg
+  #     width: 400
+  #     height: 400
+  #     alt: Python SDK
+  #   link: xarm_python_sdk/installation.html
+  #   details: Python接口开发
+  # - title: Support Article
+  #   icon: 
+  #     src: /assets/support_article.svg
+  #     width: 400
+  #     height: 400
+  #     alt: Support Article
+  #   link: support_articles/hardware/How_to_reset_the_zero_position_of_xArm_Gripper.html
+  #   details: 技术支持文档.
 ---
 

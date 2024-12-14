@@ -1,5 +1,5 @@
 import { defineConfig, UserConfig } from 'vitepress'
-import { generateSidebar, withSidebar, VitePressSidebarOptions } from 'vitepress-sidebar';
+import { generateSidebar, withSidebar } from 'vitepress-sidebar';
 import { withI18n, } from 'vitepress-i18n';
 // import { VitePressI18nOptions } from 'vitepress-i18n/types.ts';
 
@@ -22,7 +22,7 @@ const vitePressConfig: UserConfig = defineConfig({
 const defaultLocale: string = 'en';
 const supportLocales: string[] = [defaultLocale, 'zhHans'];
 
-const commonSidebarConfig: VitePressSidebarOptions = {
+const commonSidebarConfig: any = {
   debugPrint: false,
   manualSortFileNameByPriority: ['introduction.md', 'guide', 'advanced-usage'],
   collapsed: true,
@@ -33,7 +33,6 @@ const commonSidebarConfig: VitePressSidebarOptions = {
   // frontmatterOrderDefaultValue: 9, // For 'CHANGELOG.md'
   // sortMenusByFrontmatterOrder: true,
   sortMenusOrderNumericallyFromLink: true,
-  excludePattern: ["release_note/", "support_articles/", "xarm_python_sdk/"],
 };
 
 const vitePressSidebarConfig = [
@@ -92,9 +91,9 @@ const vitePressI18nConfig: any = {
         level: [2, 4]
       },
     },
-    // socialLinks: [
-    //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    // ],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/xArm-Developer/ufactory_usermanual' }
+    ],
     // search: {
     //   provider: 'local'
     // },
