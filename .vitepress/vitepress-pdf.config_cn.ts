@@ -45,7 +45,7 @@ const configs = defineUserConfig({
   puppeteerLaunchOptions: {
     args: ['--no-sandbox']
   },
-  routePatterns: ['!/server/**/**.*', '!/en/index.*', '!/**/index.*', '!/en/**'],
+  routePatterns: ['!/server/**/**.*', '!/en/index.*', '!/**/index.*', '!/en/**', "!/**.*"],
   pdfOptions: {
     format: 'A4',
     printBackground: true,
