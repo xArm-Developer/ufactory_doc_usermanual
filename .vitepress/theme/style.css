@@ -187,3 +187,7 @@
 .export-pdf-button:hover {
   background-color: var(--vp-sidebar-bg-color);
 }
+
+.items .item{
+  max-width: 400px;
+}
