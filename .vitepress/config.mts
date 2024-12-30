@@ -26,7 +26,7 @@ const commonSidebarConfig: any = {
   debugPrint: false,
   manualSortFileNameByPriority: ['introduction.md', 'guide', 'advanced-usage'],
   collapsed: true,
-  capitalizeFirst: true,
+  capitalizeFirst: false,
   useTitleFromFileHeading: true,
   useTitleFromFrontmatter: true,
   useFolderTitleFromIndexFile: true,
