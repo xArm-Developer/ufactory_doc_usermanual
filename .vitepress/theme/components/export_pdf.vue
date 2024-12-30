@@ -99,7 +99,7 @@ const downloadAllPDF = async () => {
   const isZh = data.lang.value === 'zh-CN'
   allDwLoading.value = true
   try {
-    const file_name = `ufactory_docs_${!isZh?"en_1":"zh"}.pdf`
+    const file_name = `ufactory_docs_${!isZh?"en":"zh"}.pdf`
     const response = await fetch(API_DRAMA_URL+`/`+file_name)
     const blob = await response.blob()
     const url = window.URL.createObjectURL(blob)
