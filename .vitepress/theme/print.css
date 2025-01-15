@@ -7,6 +7,13 @@
         display: none !important;
     }
 
+    .VPContent,
+    .VPDoc,
+    .VPDoc .content {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
     html,
     body {
         margin: 0;
