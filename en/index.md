@@ -44,7 +44,7 @@ features:
       width: 400
       height: 400
       alt: Release Note
-    link: http://docs.api.ufactory.cc/
+    link: [http://docs.api.ufactory.cc/](http://docs.api.ufactory.cc/gcode/ufactory_Gcode.html)
     details: Firmware and UFACTORY Studio update summary.
 ---
 
