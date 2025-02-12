@@ -29,7 +29,7 @@ features:
       height: 400
       alt: Support Article
     link: http://docs.support_article.ufactory.cc/support_articles/developer/collision-detection-in-ufactory-robotic-arms-current-and-dynamic-model-based-feature.html
-    target:_self
+    target: _self
     details: Learn how to solve common issues.
   - title: API
     icon: 
@@ -38,7 +38,7 @@ features:
       height: 400
       alt: Release Note
     link: http://docs.api.ufactory.cc/gcode/ufactory_Gcode.html
-    target:_self
+    target: _self
     details: Python SDK, WebSocket API, Gcode, Modbus TCP, Private TCP, Release Note
 ---
 
