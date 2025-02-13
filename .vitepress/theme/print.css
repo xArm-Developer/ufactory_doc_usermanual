@@ -1,0 +1,43 @@
+@media print {
+
+    .export-btn,
+    .VPNav,
+    .VPLocalNav,
+    .VPDocFooter {
+        display: none !important;
+    }
+
+    .VPContent,
+    .VPDoc,
+    .VPDoc .content {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        page-break-after: always;
+
+    }
+
+    div {
+        /* outline: 1px solid red; */
+        /* 高亮显示所有元素边框 */
+    }
+
+    body {
+        /* margin: 0;
+        padding: 0;
+        width: 210mm;
+        /* A4 宽度 */
+        /* height: 297mm; */
+        /* A4 高度 */
+        /* box-sizing: border-box;  */
+    }
+
+    .page {
+        page-break-after: always;
+    }
+}
