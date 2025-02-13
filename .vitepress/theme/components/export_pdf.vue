@@ -7,7 +7,7 @@ import {Modal, Button} from "ant-design-vue"
 
 
 // const API_DRAMA_URL = "http://docs.api.ufactory.cc";
-const API_DRAMA_URL = "http://docs.usermanual.ufactory.cc/pdf";
+const API_DRAMA_URL = "http://docs.api.ufactory.cc/pdf";
 
 
 // 控制按钮显示
