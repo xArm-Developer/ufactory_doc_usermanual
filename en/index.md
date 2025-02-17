@@ -47,6 +47,7 @@ features:
       height: 400
       alt: xArm Accessories
     link: http://docs.accessories.ufactory.cc/xArm_Gripper/1.General Presentation.html
+    target: _self
     details: UFACTORY xArm Accessories user manual
 ---
 
