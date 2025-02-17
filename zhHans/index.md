@@ -13,14 +13,14 @@ hero:
       link: https://github.com/xArm-Developer/ufactory_doc_accessories
 
 features:
-  - title: API
+  - title: xArm_Accessories
     icon: 
       src: /assets/support_article.svg
       width: 400
       height: 400
-      alt: API
+      alt: xArm_Accessories
     link: /zhHans/xArm_Gripper/Grenral Presentation.html
-    details: UFACTORY Studio API
+    details: xArm_Accessories
   # - title: Python SDK
   #   icon: 
   #     src: /assets/python.svg
