@@ -26,11 +26,11 @@ if arm.error_code != 0:
     arm.clean_error()
 
 def bytes_to_u16(data):
-    """大端字节序"""
+    """big-endian byte sequence"""
     data_u16 = data[0] << 8 | data[1]
     return data_u16
 def u16_to_bytes(data):
-    """大端字节序"""
+    """big-endian byte sequence"""
     bts = bytes([data // 256 % 256])
     bts += bytes([data % 256])
     return bts

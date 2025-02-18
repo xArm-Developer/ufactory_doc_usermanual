@@ -207,7 +207,9 @@ arm = XArmAPI('127.0.0.1', baud_checkset=False, check_joint_limit=False)
 ```
 
 Note:
+
 1.Test under Ubuntu 24.04 x86-64 and Windows 11 x86-64
+
 2.Some uesfull commands
 ```
 //Show the running container
