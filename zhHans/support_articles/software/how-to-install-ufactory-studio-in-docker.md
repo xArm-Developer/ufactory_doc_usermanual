@@ -52,6 +52,9 @@ docker run -it --name uf_software -p 18333:18333 danielwang123321/uf-ubuntu-dock
 
 在浏览器中搜索： 127.0.0.1:18333
 
+如果出现弹窗“Unable to get robot SN …”，点击 “Close" 然后正常使用仿真机械臂
+
+
 **如果需要使用xArm SDK**
  
 请把程序中的IP地址修改为：127.0.0.1
