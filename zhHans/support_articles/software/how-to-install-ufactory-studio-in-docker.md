@@ -57,7 +57,7 @@ docker run -it --name uf_software -p 18333:18333 danielwang123321/uf-ubuntu-dock
 请把程序中的IP地址修改为：127.0.0.1
 
 
-##  使用外部 IDE（如 VSCode 或 Pycharm）运行 “Blockly-to-Python” 代码
+### 5.使用外部 IDE（如 VSCode 或 Pycharm）运行 “Blockly-to-Python” 代码
 
 如果你从内部 Python IDE 复制了 “Blockly-to-Python” 代码，并在你的计算机上使用外部 IDE（如 VSCode 或 Pycharm）运行，请确保在实例化代码的那一行中添加 `check_joint_limit=False`，如下所示：
 
