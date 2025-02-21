@@ -53,9 +53,9 @@ const vitePressI18nConfig: any = {
   rootLocale: defaultLocale,
   searchProvider: 'local',
   description: {
-    en: 'VitePress Sidebar is a VitePress plugin that automatically generates sidebar menus with one setup and no hassle. Save time by easily creating taxonomies for tons of articles.',
+    en: 'Documentation for UFACTORY products. It covers user manual, API documentation, support articles and frequently asked questions (FAQs).',
     zhHans:
-      'VitePress Sidebar是一款VitePress插件,只需一次设置即可自动生成侧边栏菜单,无需任何麻烦。轻松为大量文章创建分类,节省时间。'
+      'UFACTORY中文文档库，包括用户手册，API手册，技术支持文章，FAQ。'
   },
   themeConfig: {
     en: {
