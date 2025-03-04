@@ -1,3 +1,3 @@
 ---
-title： xArm机械爪
+title: xArm机械爪
 ---

@@ -1,3 +1,3 @@
 ---
-title： xArm真空吸头
+title: xArm真空吸头
 ---
