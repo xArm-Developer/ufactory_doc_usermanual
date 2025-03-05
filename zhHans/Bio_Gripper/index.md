@@ -1,3 +1,3 @@
 ---
-title: Bio机械爪
+title: BIO Gripper G2
 ---
