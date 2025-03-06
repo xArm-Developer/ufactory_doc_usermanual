@@ -19,7 +19,7 @@ This article mainly explains the connection method of the Robotiq Gripper and xA
 | Robotiq connector | Robotiq connector | xArm tool end | xArm tool end |
 |-------------------|-------------------|---------------|---------------|
 | **Color**         | **Signal**        | **Color**     | **Signal**    |
-| red               | +24V DC           | brown或者blue   | +24V DC       |
+| red               | +24V DC           | brown or blue   | +24V DC       |
 | black             | -24V DC           | white         | GND           |
 | white             | 485-A             | pink          | User 485-A    |
 | green             | 485-B             | yellow        | User 485-B    |
