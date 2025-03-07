@@ -49,7 +49,7 @@ onMounted(() => {
 
 function onOpenModal() {
   // 根据当前语言跳中文转到https://www.cn.ufactory.cc/xarm-download， 英文跳转到https://www.ufactory.cc/download/
-  if (isEnglish.value) {
+  if (!isEnglish.value) {
     window.open("https://www.cn.ufactory.cc/xarm-download")
   } else {
     window.open("https://www.ufactory.cc/download/")
