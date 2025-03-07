@@ -17,7 +17,6 @@
     "vitepress-sidebar": "^1.29.0"
   },
   "dependencies": {
-    "ant-design-vue": "4.x",
     "gm-export-pdfs-vitepress": "^1.0.4",
     "lucide-vue-next": "^0.460.0",
     "query-string": "^9.1.1"
